@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/sunday-grapes');
+
+/* Fill button styling */
+.fill {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid #04049d;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 20px;
+    color:#f8f7b2;
+    font-family: 'Sunday Grapes', sans-serif;
+}
+
+.fill::after {
+    content: "";
+    background-color: #2acdc1;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.fill:hover::after {
+    top: 0px;
+    left: 0px;
+}
+/* End of Fill Button  */
+
+h1 {
+    font-family: 'Sunday Grapes', sans-serif;
+    font-size: 3.1em;
+    -webkit-text-stroke: 0.01em rgb(10, 138, 251); /* width and color */
+}
+
+h2 {
+    font-family: 'Sunday Grapes', sans-serif;
+    font-size: 2.1em;
+    color: red;
+}
+
+.row{
+    color:rgb(130, 191, 245);
+    -webkit-text-stroke: 0.2px rgb(10, 138, 251); /* width and color */
+}
+
+span{
+    color: rgb(255, 0, 0);
+}
